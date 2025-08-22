@@ -10,7 +10,7 @@ Just download, unzip, and drag to your Applications folder! No compilation neede
 
 *First time running? Right-click ProductScout.app and select "Open" to bypass macOS Gatekeeper.*
 
-![ProductScout App Preview](AppPreview.png)
+![ProductScout App Preview](assets/images/AppPreview.png)
 
 ## ✨ Features
 
@@ -87,6 +87,49 @@ Right-click on any product card for quick actions:
 - Toggle Notifications
 - Duplicate
 - Delete
+
+## 📱 SMS Notifications Setup
+
+ProductScout can send SMS notifications when products become available using Apple's Shortcuts app. This is completely free and works with your iPhone.
+
+### Step-by-Step SMS Setup:
+
+1. **Open Shortcuts App** on your Mac (comes pre-installed with macOS)
+
+2. **Create New Shortcut**:
+   - Click the `+` button to create a new shortcut
+   - Name it exactly: `SendProductAlert` (case-sensitive!)
+
+3. **Add Send Message Action**:
+   - Search for "Send Message" action
+   - Add it to your shortcut
+   - Configure the recipient (your phone number or contact)
+   - Leave the message field empty (ProductScout will provide the message)
+
+4. **Configure the Shortcut**:
+   - Click the shortcut settings (⚙️ icon)
+   - Enable "Use with Quick Actions"
+   - Enable "Run Without Confirmation" (important!)
+   - Set Privacy to "Always Allow"
+
+![Shortcuts Setup](assets/images/Shortcuts.png)
+
+5. **Enable in ProductScout**:
+   - Go to Settings → Notifications in ProductScout
+   - Toggle "SMS via Shortcuts" to ON
+   - Test with "Send Test Notification"
+
+### Important Notes:
+- **Shortcut Name**: Must be exactly `SendProductAlert` for ProductScout to find it
+- **Run Without Confirmation**: Must be enabled or you'll get popups for each alert
+- **iPhone Required**: Your Mac must be signed into iMessage with the same Apple ID as your iPhone
+- **Free**: Uses iMessage, so no SMS charges apply
+
+### Troubleshooting SMS:
+- **"Shortcut not found"**: Ensure the name is exactly `SendProductAlert`
+- **Confirmation popups**: Enable "Run Without Confirmation" in shortcut settings
+- **Messages not sending**: Check that Messages app is configured and signed in
+- **No notification**: Ensure product notifications are enabled (bell icon on product card)
 
 ## 🏪 Supported Retailers
 
