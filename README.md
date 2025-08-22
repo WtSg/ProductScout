@@ -165,7 +165,7 @@ This tool accesses publicly available information and is intended for personal u
 ## 📞 Support
 
 If you encounter any issues or have feature requests, please:
-1. Check the [Issues](https://github.com/yourusername/Tracker/issues) page
+1. Check the [Issues](https://github.com/WtSg/ProductScout/issues) page
 2. Create a new issue if your problem isn't already listed
 3. Provide as much detail as possible
 
@@ -179,6 +179,12 @@ If you encounter any issues or have feature requests, please:
 - [ ] iOS companion app
 - [ ] Product categories and organization
 - [ ] Advanced filtering options
+
+## 💖 Support This Project
+
+If you find ProductScout helpful and want to support its development, consider buying me a coffee!
+
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/WtSg)
 
 ---
 
