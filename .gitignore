@@ -1,0 +1,46 @@
+# Build artifacts
+.build/
+*.app/
+Package.resolved
+.DS_Store
+DerivedData/
+
+# Test files
+test_*.swift
+*_test.swift
+direct_test.swift
+final_test.swift
+quick_test.swift
+visual_test.swift
+human_reader.swift
+test_all_urls.swift
+
+# Development files
+CLAUDE.md
+UPLOAD_INSTRUCTIONS.md
+conversation_summary_*.md
+python_version/
+venv/
+scraper_helper.py
+create_icon.swift
+BestBuyTracker.iconset/
+
+# Old/deprecated scripts
+build_app.sh
+build_mac_app.sh
+build_swift_app.sh
+run_swift.sh
+
+# Documentation drafts
+spec/
+
+# IDE files
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+
+# System files
+.DS_Store
+Thumbs.db
