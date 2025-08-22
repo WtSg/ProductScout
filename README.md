@@ -10,7 +10,7 @@ Just download, unzip, and drag to your Applications folder! No compilation neede
 
 *First time running? Right-click ProductScout.app and select "Open" to bypass macOS Gatekeeper.*
 
-![ProductScout App Preview](icon_preview.png)
+![ProductScout App Preview](AppPreview.png)
 
 ## ✨ Features
 
